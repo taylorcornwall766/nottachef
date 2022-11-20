@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nottachef Register</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+
+    <div class="navbar-container">
+        <a class="navbar-link" href="nottachef-1.html">Home</a>
+        <a class="navbar-link" href="nottachef-2.html">Register</a>
+        <a class="navbar-link" href="nottachef-3.html">Recipes</a>
+        <a class="navbar-link" href="nottachef-4.html">Dishes</a>
+    </div>
+
+    <div class="form-root">
+
+        <div class="header1-container"></div>
+       <h1 class="header1" id="2-header1">GET RECIPES SOMEDAY!</h1>
+
+       <form action="planning.md" method="post" class="form">
+            <fieldset>
+                <legend label="Register" class="form-legend">Register</legend>
+
+                <div class="form-container">
+                    <label for="firstName" class="form-input">First Name</label>
+                    <div></div>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div class="form-container">
+                    <label for="lastName" class="form-input">Last Name</label>
+                    <div></div>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div class="form-container">
+                    <label for="emailAddress" class="form-input">Email</label>
+                    <div></div>
+                    <input type="email" id="emailAddress" name="email_address">
+                </div>
+
+                <div class="form-container">
+                    <input type="checkbox" id="checkbox-input" name="checkbox">
+                    <label for="checkbox-input" class="form input" id="checkbox-label">Get Spammed</label>
+                </div>
+
+                <div class="form-container">
+                    <label for="favorite-food-textarea" >Whats your favorite food and why?</label>
+                    <div></div>
+                    <textarea id="favorite-food-textarea" name="fav_food"></textarea>
+                </div>
+
+                <div class="form-container">
+                <button type="submit" id="button">submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
